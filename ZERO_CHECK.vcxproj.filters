@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="H:\ViSP\visp_camera_open\CMakeFiles\4f5ec6c1e3450824510621ad227883a2\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9A0477C2-9CD1-4125-821A-4F7438124638}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

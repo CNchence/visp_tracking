@@ -1,0 +1,27 @@
+# CMake generation dependency list for this directory.
+H:/ViSP/visp_camera_open/CMakeLists.txt
+H:/ViSP/visp_camera_open/CMakeFiles/3.3.2/CMakeSystem.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeSystemSpecificInitialize.cmake
+H:/ViSP/visp_camera_open/CMakeFiles/3.3.2/CMakeCCompiler.cmake
+H:/ViSP/visp_camera_open/CMakeFiles/3.3.2/CMakeCXXCompiler.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeGenericSystem.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/Windows.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/WindowsPaths.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/Windows-MSVC.cmake
+H:/ViSP/visp_camera_open/CMakeFiles/3.3.2/CMakeRCCompiler.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeRCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeCXXInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeCommonLanguageInclude.cmake
+H:/ViSP/visp_build/install/VISPConfigVersion.cmake
+H:/ViSP/visp_build/install/VISPConfig.cmake
+H:/ViSP/visp_build/install/x64/vc14/lib/ViSPConfig.cmake
+H:/ViSP/visp_build/install/x64/vc14/lib/VISPModules.cmake
+H:/ViSP/visp_build/install/x64/vc14/lib/VISPModules-debug.cmake
+H:/ViSP/visp_build/install/x64/vc14/lib/VISPModules-release.cmake

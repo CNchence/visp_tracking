@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{CF0C4B7A-6B08-4C58-85DA-B80179740D56}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>main</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\ViSP\visp_camera_open\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">main.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">main</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\ViSP\visp_camera_open\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">main.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">main</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\ViSP\visp_camera_open\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">main.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">main</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\ViSP\visp_camera_open\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">main.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">main</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>H:\ViSP\visp_build\install\include;C:\OpenCV\opencv\build\include;C:\OpenCV\opencv\build\include\opencv;C:\Users\ChenCe\Anaconda3\Library\include;C:\librealsense\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>H:\ViSP\visp_build\install\include;C:\OpenCV\opencv\build\include;C:\OpenCV\opencv\build\include\opencv;C:\Users\ChenCe\Anaconda3\Library\include;C:\librealsense\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>H:\ViSP\visp_build\install\include;C:\OpenCV\opencv\build\include;C:\OpenCV\opencv\build\include\opencv;C:\Users\ChenCe\Anaconda3\Library\include;C:\librealsense\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_vs301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_tt_mi301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_tt301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_mbt301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_klt301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_robot301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_gui301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_detection301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_ar301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_sensor301d.lib;C:\librealsense\bin\x64\realsense-d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_vision301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_visual_features301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_me301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_blob301d.lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Lib\x64\Gdi32.Lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_io301d.lib;C:\Users\ChenCe\Anaconda3\Library\lib\jpeg.lib;C:\Users\ChenCe\Anaconda3\Library\lib\libpng.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_core301d.lib;winmm.lib;ws2_32.lib;C:\OpenCV\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Users\ChenCe\Anaconda3\Library\lib\z.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>H:/ViSP/visp_camera_open/Debug/main.lib</ImportLibrary>
+      <ProgramDataBaseFile>H:/ViSP/visp_camera_open/Debug/main.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>H:\ViSP\visp_build\install\include;C:\OpenCV\opencv\build\include;C:\OpenCV\opencv\build\include\opencv;C:\Users\ChenCe\Anaconda3\Library\include;C:\librealsense\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>H:\ViSP\visp_build\install\include;C:\OpenCV\opencv\build\include;C:\OpenCV\opencv\build\include\opencv;C:\Users\ChenCe\Anaconda3\Library\include;C:\librealsense\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>H:\ViSP\visp_build\install\include;C:\OpenCV\opencv\build\include;C:\OpenCV\opencv\build\include\opencv;C:\Users\ChenCe\Anaconda3\Library\include;C:\librealsense\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_vs301.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_tt_mi301.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_tt301.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_mbt301.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_klt301.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_robot301.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_gui301.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_detection301.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_ar301.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_sensor301.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_vision301.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_visual_features301.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_me301.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_blob301.lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Lib\x64\Gdi32.Lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_io301.lib;C:\Users\ChenCe\Anaconda3\Library\lib\jpeg.lib;C:\Users\ChenCe\Anaconda3\Library\lib\libpng.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_core301.lib;winmm.lib;ws2_32.lib;C:\OpenCV\opencv\build\x64\vc14\lib\opencv_world310.lib;C:\Users\ChenCe\Anaconda3\Library\lib\z.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>H:/ViSP/visp_camera_open/Release/main.lib</ImportLibrary>
+      <ProgramDataBaseFile>H:/ViSP/visp_camera_open/Release/main.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>H:\ViSP\visp_build\install\include;C:\OpenCV\opencv\build\include;C:\OpenCV\opencv\build\include\opencv;C:\Users\ChenCe\Anaconda3\Library\include;C:\librealsense\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>H:\ViSP\visp_build\install\include;C:\OpenCV\opencv\build\include;C:\OpenCV\opencv\build\include\opencv;C:\Users\ChenCe\Anaconda3\Library\include;C:\librealsense\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>H:\ViSP\visp_build\install\include;C:\OpenCV\opencv\build\include;C:\OpenCV\opencv\build\include\opencv;C:\Users\ChenCe\Anaconda3\Library\include;C:\librealsense\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_vs301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_tt_mi301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_tt301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_mbt301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_klt301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_robot301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_gui301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_detection301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_ar301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_sensor301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_vision301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_visual_features301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_me301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_blob301d.lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Lib\x64\Gdi32.Lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_io301d.lib;C:\Users\ChenCe\Anaconda3\Library\lib\jpeg.lib;C:\Users\ChenCe\Anaconda3\Library\lib\libpng.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_core301d.lib;winmm.lib;ws2_32.lib;C:\OpenCV\opencv\build\x64\vc14\lib\opencv_world310.lib;C:\Users\ChenCe\Anaconda3\Library\lib\z.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>H:/ViSP/visp_camera_open/MinSizeRel/main.lib</ImportLibrary>
+      <ProgramDataBaseFile>H:/ViSP/visp_camera_open/MinSizeRel/main.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>H:\ViSP\visp_build\install\include;C:\OpenCV\opencv\build\include;C:\OpenCV\opencv\build\include\opencv;C:\Users\ChenCe\Anaconda3\Library\include;C:\librealsense\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>H:\ViSP\visp_build\install\include;C:\OpenCV\opencv\build\include;C:\OpenCV\opencv\build\include\opencv;C:\Users\ChenCe\Anaconda3\Library\include;C:\librealsense\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>H:\ViSP\visp_build\install\include;C:\OpenCV\opencv\build\include;C:\OpenCV\opencv\build\include\opencv;C:\Users\ChenCe\Anaconda3\Library\include;C:\librealsense\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_vs301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_tt_mi301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_tt301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_mbt301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_klt301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_robot301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_gui301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_detection301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_ar301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_sensor301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_vision301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_visual_features301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_me301d.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_blob301d.lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Lib\x64\Gdi32.Lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_io301d.lib;C:\Users\ChenCe\Anaconda3\Library\lib\jpeg.lib;C:\Users\ChenCe\Anaconda3\Library\lib\libpng.lib;H:\ViSP\visp_build\install\x64\vc14\lib\visp_core301d.lib;winmm.lib;ws2_32.lib;C:\OpenCV\opencv\build\x64\vc14\lib\opencv_world310.lib;C:\Users\ChenCe\Anaconda3\Library\lib\z.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>H:/ViSP/visp_camera_open/RelWithDebInfo/main.lib</ImportLibrary>
+      <ProgramDataBaseFile>H:/ViSP/visp_camera_open/RelWithDebInfo/main.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="H:\ViSP\visp_camera_open\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule H:/ViSP/visp_camera_open/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HH:/ViSP/visp_camera_open -BH:/ViSP/visp_camera_open --check-stamp-file H:\ViSP\visp_camera_open\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:/ViSP/visp_camera_open/CMakeLists.txt;H:\ViSP\visp_camera_open\CMakeLists.txt;H:\ViSP\visp_camera_open\CMakeFiles\3.3.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;H:\ViSP\visp_camera_open\CMakeFiles\3.3.2\CMakeCCompiler.cmake;H:\ViSP\visp_camera_open\CMakeFiles\3.3.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;H:\ViSP\visp_camera_open\CMakeFiles\3.3.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;H:\ViSP\visp_build\install\VISPConfigVersion.cmake;H:\ViSP\visp_build\install\VISPConfig.cmake;H:\ViSP\visp_build\install\x64\vc14\lib\ViSPConfig.cmake;H:\ViSP\visp_build\install\x64\vc14\lib\VISPModules.cmake;H:\ViSP\visp_build\install\x64\vc14\lib\VISPModules-debug.cmake;H:\ViSP\visp_build\install\x64\vc14\lib\VISPModules-release.cmake;H:\ViSP\visp_camera_open\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\ViSP\visp_camera_open\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule H:/ViSP/visp_camera_open/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HH:/ViSP/visp_camera_open -BH:/ViSP/visp_camera_open --check-stamp-file H:\ViSP\visp_camera_open\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:/ViSP/visp_camera_open/CMakeLists.txt;H:\ViSP\visp_camera_open\CMakeLists.txt;H:\ViSP\visp_camera_open\CMakeFiles\3.3.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;H:\ViSP\visp_camera_open\CMakeFiles\3.3.2\CMakeCCompiler.cmake;H:\ViSP\visp_camera_open\CMakeFiles\3.3.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;H:\ViSP\visp_camera_open\CMakeFiles\3.3.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;H:\ViSP\visp_build\install\VISPConfigVersion.cmake;H:\ViSP\visp_build\install\VISPConfig.cmake;H:\ViSP\visp_build\install\x64\vc14\lib\ViSPConfig.cmake;H:\ViSP\visp_build\install\x64\vc14\lib\VISPModules.cmake;H:\ViSP\visp_build\install\x64\vc14\lib\VISPModules-debug.cmake;H:\ViSP\visp_build\install\x64\vc14\lib\VISPModules-release.cmake;H:\ViSP\visp_camera_open\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\ViSP\visp_camera_open\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule H:/ViSP/visp_camera_open/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HH:/ViSP/visp_camera_open -BH:/ViSP/visp_camera_open --check-stamp-file H:\ViSP\visp_camera_open\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:/ViSP/visp_camera_open/CMakeLists.txt;H:\ViSP\visp_camera_open\CMakeLists.txt;H:\ViSP\visp_camera_open\CMakeFiles\3.3.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;H:\ViSP\visp_camera_open\CMakeFiles\3.3.2\CMakeCCompiler.cmake;H:\ViSP\visp_camera_open\CMakeFiles\3.3.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;H:\ViSP\visp_camera_open\CMakeFiles\3.3.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;H:\ViSP\visp_build\install\VISPConfigVersion.cmake;H:\ViSP\visp_build\install\VISPConfig.cmake;H:\ViSP\visp_build\install\x64\vc14\lib\ViSPConfig.cmake;H:\ViSP\visp_build\install\x64\vc14\lib\VISPModules.cmake;H:\ViSP\visp_build\install\x64\vc14\lib\VISPModules-debug.cmake;H:\ViSP\visp_build\install\x64\vc14\lib\VISPModules-release.cmake;H:\ViSP\visp_camera_open\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\ViSP\visp_camera_open\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule H:/ViSP/visp_camera_open/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HH:/ViSP/visp_camera_open -BH:/ViSP/visp_camera_open --check-stamp-file H:\ViSP\visp_camera_open\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:/ViSP/visp_camera_open/CMakeLists.txt;H:\ViSP\visp_camera_open\CMakeLists.txt;H:\ViSP\visp_camera_open\CMakeFiles\3.3.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;H:\ViSP\visp_camera_open\CMakeFiles\3.3.2\CMakeCCompiler.cmake;H:\ViSP\visp_camera_open\CMakeFiles\3.3.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;H:\ViSP\visp_camera_open\CMakeFiles\3.3.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;H:\ViSP\visp_build\install\VISPConfigVersion.cmake;H:\ViSP\visp_build\install\VISPConfig.cmake;H:\ViSP\visp_build\install\x64\vc14\lib\ViSPConfig.cmake;H:\ViSP\visp_build\install\x64\vc14\lib\VISPModules.cmake;H:\ViSP\visp_build\install\x64\vc14\lib\VISPModules-debug.cmake;H:\ViSP\visp_build\install\x64\vc14\lib\VISPModules-release.cmake;H:\ViSP\visp_camera_open\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\ViSP\visp_camera_open\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="H:\ViSP\visp_camera_open\main.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="H:/ViSP/visp_camera_open/ZERO_CHECK.vcxproj">
+      <Project>C73BCBB4-3404-44A1-8FFD-F7CB24B4CCC0</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

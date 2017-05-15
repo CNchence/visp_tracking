@@ -1,0 +1,5 @@
+4                  # Number of points
+0.11   0      0     # Point 3
+0.11 0.078     0     # Point 4
+0.11 0.078  -0.075    # Point 5
+0    0.078  -0.075    # Point 6

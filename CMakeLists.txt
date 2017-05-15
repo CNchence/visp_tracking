@@ -1,0 +1,6 @@
+project(main)
+cmake_minimum_required(VERSION 2.8)
+find_package(VISP REQUIRED)
+include_directories(${VISP_INCLUDE_DIRS})
+add_executable(main main.cpp)
+target_link_libraries(main ${VISP_LIBRARIES})
